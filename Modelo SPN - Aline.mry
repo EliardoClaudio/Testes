@@ -1,0 +1,36 @@
+SPN Model{
+
+	place CLC_Off;
+	place CLC_On( tokens= 1 );
+	place Node_Off;
+	place Node_On( tokens= 1 );
+
+
+	timedTransition CLC_fail(
+		inputs = [CLC_On],
+		outputs = [CLC_Off],
+		delay = 1.0
+	);
+
+	timedTransition CLC_repair(
+		inputs = [CLC_Off],
+		outputs = [CLC_On],
+		delay = 1.0
+	);
+
+	timedTransition Node_fail(
+		inputs = [Node_On],
+		outputs = [Node_Off],
+		delay = 1.0
+	);
+
+	timedTransition Node_repair(
+		inputs = [Node_Off],
+		outputs = [Node_On],
+		delay = 1.0
+	);
+
+}
+
+main {
+}

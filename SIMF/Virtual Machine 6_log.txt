@@ -1,0 +1,2370 @@
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:31:22 BRT 2016
+Tempo de falha Gerado: 249849
+Mon Sep 26 18:31:22 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 18:35:33 BRT 2016
+Tempo de reparo Gerado: 249849
+Mon Sep 26 18:36:05 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:40:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:41:45 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 18:41:45 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:41:45 BRT 2016
+Tempo de falha Gerado: 209778
+Mon Sep 26 18:41:46 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 18:43:47 BRT 2016
+Tempo de reparo Gerado: 86326
+Mon Sep 26 18:44:18 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 18:45:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:45:45 BRT 2016
+Tempo de reparo Gerado: 209778
+Mon Sep 26 18:45:48 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:46:49 BRT 2016
+Tempo de falha Gerado: 303344
+Mon Sep 26 18:46:49 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:49:19 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:49:50 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 18:49:50 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 18:51:51 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 18:51:54 BRT 2016
+Tempo de reparo Gerado: 72590
+Mon Sep 26 18:52:23 BRT 2016
+Tempo de reparo Gerado: 303344
+Mon Sep 26 18:52:25 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:53:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:57:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:58:31 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 18:58:31 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 18:58:31 BRT 2016
+Tempo de falha Gerado: 222740
+Mon Sep 26 18:58:31 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:02:15 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:08:33 BRT 2016
+Tempo de reparo Gerado: 222740
+Mon Sep 26 19:08:34 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 19:09:04 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:12:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:19:05 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:20:08 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 19:20:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:20:08 BRT 2016
+Tempo de falha Gerado: 179677
+Mon Sep 26 19:20:08 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:22:09 BRT 2016
+Tempo de reparo Gerado: 112723
+Mon Sep 26 19:22:40 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:23:09 BRT 2016
+Tempo de reparo Gerado: 179677
+Mon Sep 26 19:23:40 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:24:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:25:36 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 19:25:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:26:41 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:27:12 BRT 2016
+Tempo de falha Gerado: 202227
+Mon Sep 26 19:27:12 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:27:37 BRT 2016
+Tempo de reparo Gerado: 67518
+Mon Sep 26 19:28:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:29:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:30:19 BRT 2016
+Tempo de falha Gerado: 423272
+Mon Sep 26 19:30:19 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:30:36 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:37:23 BRT 2016
+Tempo de reparo Gerado: 202227
+Mon Sep 26 19:37:24 BRT 2016
+Tempo de reparo Gerado: 423272
+Mon Sep 26 19:37:55 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:40:48 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:44:59 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:46:02 BRT 2016
+Tempo de falha Gerado: 283133
+Mon Sep 26 19:46:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:46:02 BRT 2016
+Tempo de falha Gerado: 176486
+Mon Sep 26 19:46:02 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:49:00 BRT 2016
+Tempo de reparo Gerado: 176486
+Mon Sep 26 19:49:31 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:50:46 BRT 2016
+Tempo de reparo Gerado: 283133
+Mon Sep 26 19:51:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:52:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:53:30 BRT 2016
+Tempo de falha Gerado: 270094
+Mon Sep 26 19:53:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:56:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 19:56:33 BRT 2016
+Tempo de falha Gerado: 205506
+Mon Sep 26 19:56:33 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 19:58:01 BRT 2016
+Tempo de reparo Gerado: 270094
+Mon Sep 26 19:58:33 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:00:00 BRT 2016
+Tempo de reparo Gerado: 205506
+Mon Sep 26 20:00:31 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:03:04 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:03:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:04:08 BRT 2016
+Tempo de falha Gerado: 333488
+Mon Sep 26 20:04:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:04:29 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 20:04:29 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:09:43 BRT 2016
+Tempo de reparo Gerado: 333488
+Mon Sep 26 20:10:14 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:14:30 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 20:15:01 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:15:49 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:16:55 BRT 2016
+Tempo de falha Gerado: 330758
+Mon Sep 26 20:16:55 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:22:27 BRT 2016
+Tempo de reparo Gerado: 330758
+Mon Sep 26 20:22:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:25:03 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:28:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:29:33 BRT 2016
+Tempo de falha Gerado: 214549
+Mon Sep 26 20:29:33 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:29:33 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 20:29:33 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:33:08 BRT 2016
+Tempo de reparo Gerado: 214549
+Mon Sep 26 20:33:40 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:37:15 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:38:44 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 20:38:44 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:39:34 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:40:45 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 20:40:46 BRT 2016
+Tempo de reparo Gerado: 103089
+Mon Sep 26 20:41:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:43:01 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:44:03 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 20:44:03 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:46:05 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 20:46:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:47:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:48:38 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 20:48:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:50:47 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 20:51:18 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 20:51:18 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 20:58:39 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 20:59:11 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:01:19 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 21:01:51 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:09:12 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:10:14 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:10:14 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:11:52 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:12:15 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 21:12:46 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:13:48 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:14:51 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:14:51 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:14:51 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:14:51 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:16:52 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:16:52 BRT 2016
+Tempo de reparo Gerado: 103338
+Mon Sep 26 21:17:23 BRT 2016
+Tempo de reparo Gerado: 111665
+Mon Sep 26 21:17:23 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:19:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:19:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:20:20 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 21:20:20 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:20:20 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:20:20 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:22:21 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 21:22:52 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:23:54 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:24:57 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:24:57 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:26:58 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 21:27:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:28:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:29:56 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:29:56 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:30:21 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:31:57 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 21:31:59 BRT 2016
+Tempo de reparo Gerado: 113230
+Mon Sep 26 21:32:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:34:23 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:35:25 BRT 2016
+Tempo de falha Gerado: 412182
+Mon Sep 26 21:35:25 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:42:00 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:42:18 BRT 2016
+Tempo de reparo Gerado: 412182
+Mon Sep 26 21:42:50 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:49:43 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:50:48 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:50:48 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:50:48 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:50:48 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:52:49 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:52:49 BRT 2016
+Tempo de reparo Gerado: 86334
+Mon Sep 26 21:53:20 BRT 2016
+Tempo de reparo Gerado: 100569
+Mon Sep 26 21:53:21 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:54:48 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:55:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:56:09 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 21:56:09 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 21:56:09 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 21:56:09 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 21:58:11 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:06:11 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 22:06:12 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 22:06:42 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:07:13 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:16:44 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:17:46 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 22:17:46 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:17:47 BRT 2016
+Tempo de falha Gerado: 226058
+Mon Sep 26 22:17:47 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:21:34 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:27:47 BRT 2016
+Tempo de reparo Gerado: 226058
+Mon Sep 26 22:27:49 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 22:28:28 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:31:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:38:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:39:37 BRT 2016
+Tempo de falha Gerado: 217668
+Mon Sep 26 22:39:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:39:37 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 22:39:37 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:41:38 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:43:16 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 22:43:16 BRT 2016
+Tempo de reparo Gerado: 217668
+Mon Sep 26 22:43:47 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:44:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:47:26 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:48:27 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 22:48:27 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:48:27 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 22:48:27 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:50:28 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:50:28 BRT 2016
+Tempo de reparo Gerado: 70596
+Mon Sep 26 22:51:00 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 22:51:00 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:52:01 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:52:11 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:53:02 BRT 2016
+Tempo de falha Gerado: 235216
+Mon Sep 26 22:53:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 22:53:02 BRT 2016
+Tempo de falha Gerado: 600000
+Mon Sep 26 22:53:02 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 22:56:58 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:03:09 BRT 2016
+Tempo de reparo Gerado: 235216
+Mon Sep 26 23:03:09 BRT 2016
+Tempo de reparo Gerado: 600000
+Mon Sep 26 23:03:40 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:07:05 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:13:41 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:14:45 BRT 2016
+Tempo de falha Gerado: 253002
+Mon Sep 26 23:14:45 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:14:45 BRT 2016
+Tempo de falha Gerado: 203231
+Mon Sep 26 23:14:45 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:18:10 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:18:59 BRT 2016
+Tempo de reparo Gerado: 203231
+Mon Sep 26 23:19:00 BRT 2016
+Tempo de reparo Gerado: 253002
+Mon Sep 26 23:19:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:22:24 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:23:44 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:24:47 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 23:24:47 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:24:48 BRT 2016
+Tempo de falha Gerado: 190839
+Mon Sep 26 23:24:48 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:26:48 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 23:27:20 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:28:00 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:28:21 BRT 2016
+Tempo de reparo Gerado: 190839
+Mon Sep 26 23:28:31 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:29:22 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 23:29:22 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:31:23 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:31:43 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 23:31:55 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:32:56 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:34:05 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 23:34:05 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:34:05 BRT 2016
+Tempo de falha Gerado: 507982
+Mon Sep 26 23:34:05 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:36:06 BRT 2016
+Tempo de reparo Gerado: 60000
+Mon Sep 26 23:36:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:37:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:38:42 BRT 2016
+Tempo de falha Gerado: 120000
+Mon Sep 26 23:38:42 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:40:43 BRT 2016
+Tempo de reparo Gerado: 88162
+Mon Sep 26 23:41:14 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:42:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:42:43 BRT 2016
+Tempo de reparo Gerado: 507982
+Mon Sep 26 23:43:05 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:44:05 BRT 2016
+Tempo de falha Gerado: 594660
+Mon Sep 26 23:44:05 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:51:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Mon Sep 26 23:52:06 BRT 2016
+Tempo de falha Gerado: 368581
+Mon Sep 26 23:52:06 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:54:01 BRT 2016
+Tempo de reparo Gerado: 594660
+Mon Sep 26 23:54:32 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Mon Sep 26 23:58:15 BRT 2016
+Tempo de reparo Gerado: 368581
+Mon Sep 26 23:58:47 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:04:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:04:57 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:05:33 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:05:33 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 00:05:33 BRT 2016
+Tempo de falha Gerado: 443452
+Tue Sep 27 00:05:45 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:07:35 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 00:08:07 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:09:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:10:11 BRT 2016
+Tempo de falha Gerado: 133363
+Tue Sep 27 00:10:11 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:12:26 BRT 2016
+Tempo de reparo Gerado: 133363
+Tue Sep 27 00:12:57 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:12:58 BRT 2016
+Tempo de reparo Gerado: 443452
+Tue Sep 27 00:13:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:15:12 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:16:15 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 00:16:15 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:20:54 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:21:25 BRT 2016
+Tempo de falha Gerado: 181728
+Tue Sep 27 00:21:25 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:24:28 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:26:18 BRT 2016
+Tempo de reparo Gerado: 181728
+Tue Sep 27 00:26:21 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 00:26:49 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:29:23 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:36:50 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:37:55 BRT 2016
+Tempo de falha Gerado: 209286
+Tue Sep 27 00:37:55 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:37:55 BRT 2016
+Tempo de falha Gerado: 527081
+Tue Sep 27 00:37:55 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:41:25 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:46:46 BRT 2016
+Tempo de reparo Gerado: 209286
+Tue Sep 27 00:46:47 BRT 2016
+Tempo de reparo Gerado: 527081
+Tue Sep 27 00:47:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:50:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:56:07 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:57:29 BRT 2016
+Tempo de falha Gerado: 176315
+Tue Sep 27 00:57:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 00:57:29 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 00:57:29 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 00:59:31 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 01:00:03 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:00:28 BRT 2016
+Tempo de reparo Gerado: 176315
+Tue Sep 27 01:01:00 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:01:04 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:02:06 BRT 2016
+Tempo de falha Gerado: 322166
+Tue Sep 27 01:02:06 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:03:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:04:30 BRT 2016
+Tempo de falha Gerado: 310834
+Tue Sep 27 01:04:38 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:07:29 BRT 2016
+Tempo de reparo Gerado: 322166
+Tue Sep 27 01:08:01 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:09:43 BRT 2016
+Tempo de reparo Gerado: 310834
+Tue Sep 27 01:10:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:13:24 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:14:28 BRT 2016
+Tempo de falha Gerado: 268308
+Tue Sep 27 01:14:28 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:15:28 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:16:01 BRT 2016
+Tempo de falha Gerado: 249384
+Tue Sep 27 01:16:01 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:18:57 BRT 2016
+Tempo de reparo Gerado: 268308
+Tue Sep 27 01:19:28 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:20:13 BRT 2016
+Tempo de reparo Gerado: 249384
+Tue Sep 27 01:20:44 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:23:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:24:56 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:25:02 BRT 2016
+Tempo de falha Gerado: 239957
+Tue Sep 27 01:25:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:25:30 BRT 2016
+Tempo de falha Gerado: 156047
+Tue Sep 27 01:25:30 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:28:08 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:29:03 BRT 2016
+Tempo de reparo Gerado: 156047
+Tue Sep 27 01:29:15 BRT 2016
+Tempo de reparo Gerado: 239957
+Tue Sep 27 01:29:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:33:35 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:34:59 BRT 2016
+Tempo de falha Gerado: 192043
+Tue Sep 27 01:34:59 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:38:12 BRT 2016
+Tempo de reparo Gerado: 192043
+Tue Sep 27 01:38:43 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:41:57 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:43:02 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 01:43:02 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:45:03 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 01:45:35 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:46:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:47:41 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 01:47:41 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:49:43 BRT 2016
+Tempo de reparo Gerado: 95076
+Tue Sep 27 01:50:14 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:51:50 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:52:52 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 01:52:52 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:54:53 BRT 2016
+Tempo de reparo Gerado: 78147
+Tue Sep 27 01:55:24 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:56:44 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 01:57:45 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 01:57:45 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 01:59:46 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 02:00:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:01:19 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:02:19 BRT 2016
+Tempo de falha Gerado: 126742
+Tue Sep 27 02:02:19 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 02:04:27 BRT 2016
+Tempo de reparo Gerado: 126742
+Tue Sep 27 02:04:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:07:06 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:08:10 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 02:08:10 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 02:10:11 BRT 2016
+Tempo de reparo Gerado: 79422
+Tue Sep 27 02:10:43 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:12:03 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:13:09 BRT 2016
+Tempo de falha Gerado: 429263
+Tue Sep 27 02:13:09 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 02:20:19 BRT 2016
+Tempo de reparo Gerado: 429263
+Tue Sep 27 02:20:51 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:28:01 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:29:05 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 02:29:05 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 02:39:06 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 02:39:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:49:39 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:51:04 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 02:51:04 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 02:53:05 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 02:53:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:54:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 02:55:40 BRT 2016
+Tempo de falha Gerado: 401699
+Tue Sep 27 02:55:40 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 03:03:21 BRT 2016
+Tempo de reparo Gerado: 401699
+Tue Sep 27 03:03:56 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:10:41 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:11:41 BRT 2016
+Tempo de falha Gerado: 203637
+Tue Sep 27 03:11:41 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 03:15:06 BRT 2016
+Tempo de reparo Gerado: 203637
+Tue Sep 27 03:15:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:19:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:20:04 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 03:20:04 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 03:22:05 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 03:22:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:23:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:24:40 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 03:24:40 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 03:34:42 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 03:35:13 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:45:15 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:46:17 BRT 2016
+Tempo de falha Gerado: 300984
+Tue Sep 27 03:46:17 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 03:51:19 BRT 2016
+Tempo de reparo Gerado: 300984
+Tue Sep 27 03:51:51 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:56:53 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 03:57:55 BRT 2016
+Tempo de falha Gerado: 345510
+Tue Sep 27 03:57:55 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:03:42 BRT 2016
+Tempo de reparo Gerado: 345510
+Tue Sep 27 04:04:13 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:10:00 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:11:03 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 04:11:03 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:21:04 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 04:21:35 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:31:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:32:38 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 04:32:38 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:34:39 BRT 2016
+Tempo de reparo Gerado: 74006
+Tue Sep 27 04:35:11 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:36:26 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:37:29 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 04:37:29 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:39:30 BRT 2016
+Tempo de reparo Gerado: 94156
+Tue Sep 27 04:40:01 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:41:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:42:39 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 04:42:39 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:44:41 BRT 2016
+Tempo de reparo Gerado: 103532
+Tue Sep 27 04:45:12 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:46:57 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:48:25 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 04:48:25 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:50:26 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 04:50:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:51:59 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:53:01 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 04:53:01 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 04:55:02 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 04:55:33 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:56:35 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 04:57:30 BRT 2016
+Tempo de falha Gerado: 211220
+Tue Sep 27 04:57:30 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:01:02 BRT 2016
+Tempo de reparo Gerado: 211220
+Tue Sep 27 05:01:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:05:06 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:06:07 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 05:06:07 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:08:09 BRT 2016
+Tempo de reparo Gerado: 93414
+Tue Sep 27 05:08:40 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:10:15 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:11:18 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 05:11:18 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:13:19 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 05:13:50 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:14:52 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:15:53 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 05:15:53 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:17:54 BRT 2016
+Tempo de reparo Gerado: 102167
+Tue Sep 27 05:18:25 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:20:09 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:21:16 BRT 2016
+Tempo de falha Gerado: 263062
+Tue Sep 27 05:21:16 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:25:40 BRT 2016
+Tempo de reparo Gerado: 263062
+Tue Sep 27 05:26:11 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:30:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:31:44 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 05:31:44 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:33:46 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 05:34:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:35:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:36:18 BRT 2016
+Tempo de falha Gerado: 414466
+Tue Sep 27 05:36:18 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:43:14 BRT 2016
+Tempo de reparo Gerado: 414466
+Tue Sep 27 05:43:45 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:50:41 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:51:44 BRT 2016
+Tempo de falha Gerado: 198854
+Tue Sep 27 05:51:44 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 05:55:04 BRT 2016
+Tempo de reparo Gerado: 198854
+Tue Sep 27 05:55:35 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:58:55 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 05:59:56 BRT 2016
+Tempo de falha Gerado: 127889
+Tue Sep 27 05:59:56 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:02:05 BRT 2016
+Tempo de reparo Gerado: 127889
+Tue Sep 27 06:02:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:04:46 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:05:46 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 06:05:46 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:07:47 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 06:08:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:09:20 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:10:17 BRT 2016
+Tempo de falha Gerado: 290714
+Tue Sep 27 06:10:17 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:15:10 BRT 2016
+Tempo de reparo Gerado: 290714
+Tue Sep 27 06:15:41 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:20:33 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:22:05 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 06:22:05 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:24:07 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 06:24:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:25:39 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:26:44 BRT 2016
+Tempo de falha Gerado: 282507
+Tue Sep 27 06:26:44 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:31:28 BRT 2016
+Tempo de reparo Gerado: 282507
+Tue Sep 27 06:31:59 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:36:43 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:37:51 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 06:37:51 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:39:52 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 06:40:24 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:41:25 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:42:29 BRT 2016
+Tempo de falha Gerado: 426906
+Tue Sep 27 06:42:29 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 06:49:37 BRT 2016
+Tempo de reparo Gerado: 426906
+Tue Sep 27 06:50:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:57:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 06:58:23 BRT 2016
+Tempo de falha Gerado: 152014
+Tue Sep 27 06:58:23 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:00:56 BRT 2016
+Tempo de reparo Gerado: 152014
+Tue Sep 27 07:01:28 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:04:01 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:05:02 BRT 2016
+Tempo de falha Gerado: 208459
+Tue Sep 27 07:05:02 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:08:32 BRT 2016
+Tempo de reparo Gerado: 208459
+Tue Sep 27 07:09:03 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:12:33 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:13:35 BRT 2016
+Tempo de falha Gerado: 296184
+Tue Sep 27 07:13:35 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:18:33 BRT 2016
+Tempo de reparo Gerado: 296184
+Tue Sep 27 07:19:04 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:24:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:25:06 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 07:25:06 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:35:07 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 07:35:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:45:40 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:46:46 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 07:46:46 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:48:47 BRT 2016
+Tempo de reparo Gerado: 68756
+Tue Sep 27 07:49:19 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:50:29 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:51:30 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 07:51:30 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:53:31 BRT 2016
+Tempo de reparo Gerado: 79057
+Tue Sep 27 07:54:03 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:55:23 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:56:25 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 07:56:25 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 07:58:26 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 07:58:57 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 07:59:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:01:01 BRT 2016
+Tempo de falha Gerado: 248876
+Tue Sep 27 08:01:01 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 08:05:11 BRT 2016
+Tempo de reparo Gerado: 248876
+Tue Sep 27 08:05:42 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:09:52 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:10:56 BRT 2016
+Tempo de falha Gerado: 394341
+Tue Sep 27 08:10:56 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 08:17:32 BRT 2016
+Tempo de reparo Gerado: 394341
+Tue Sep 27 08:18:04 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:24:39 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:25:43 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 08:25:43 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 08:27:44 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 08:28:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:29:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:30:20 BRT 2016
+Tempo de falha Gerado: 506987
+Tue Sep 27 08:30:20 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 08:38:49 BRT 2016
+Tempo de reparo Gerado: 506987
+Tue Sep 27 08:39:20 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:47:48 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:48:54 BRT 2016
+Tempo de falha Gerado: 151124
+Tue Sep 27 08:48:54 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 08:51:26 BRT 2016
+Tempo de reparo Gerado: 151124
+Tue Sep 27 08:51:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:54:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 08:55:28 BRT 2016
+Tempo de falha Gerado: 368374
+Tue Sep 27 08:55:28 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 09:01:38 BRT 2016
+Tempo de reparo Gerado: 368374
+Tue Sep 27 09:02:09 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:08:19 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:09:25 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 09:09:25 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 09:11:26 BRT 2016
+Tempo de reparo Gerado: 98491
+Tue Sep 27 09:11:57 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:13:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:14:41 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 09:14:41 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 09:16:43 BRT 2016
+Tempo de reparo Gerado: 67088
+Tue Sep 27 09:17:14 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:18:22 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:19:26 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 09:19:26 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 09:29:28 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 09:29:59 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:40:00 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 09:41:03 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 09:41:03 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 09:51:05 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 09:51:36 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:01:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:02:43 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 10:02:43 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 10:04:45 BRT 2016
+Tempo de reparo Gerado: 108839
+Tue Sep 27 10:05:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:07:06 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:08:13 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 10:08:13 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 10:10:14 BRT 2016
+Tempo de reparo Gerado: 103642
+Tue Sep 27 10:10:45 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:12:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:13:37 BRT 2016
+Tempo de falha Gerado: 317672
+Tue Sep 27 10:13:37 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 10:18:56 BRT 2016
+Tempo de reparo Gerado: 317672
+Tue Sep 27 10:19:28 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:24:47 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:25:52 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 10:25:52 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 10:35:54 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 10:36:25 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:46:26 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 10:47:36 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 10:47:36 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 10:57:37 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 10:58:08 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:08:10 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:09:17 BRT 2016
+Tempo de falha Gerado: 511240
+Tue Sep 27 11:09:17 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 11:17:50 BRT 2016
+Tempo de reparo Gerado: 511240
+Tue Sep 27 11:18:21 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:26:53 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:28:00 BRT 2016
+Tempo de falha Gerado: 357975
+Tue Sep 27 11:28:00 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 11:34:00 BRT 2016
+Tempo de reparo Gerado: 357975
+Tue Sep 27 11:34:31 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:40:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:41:57 BRT 2016
+Tempo de falha Gerado: 468248
+Tue Sep 27 11:41:57 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 11:49:47 BRT 2016
+Tempo de reparo Gerado: 468248
+Tue Sep 27 11:50:18 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:58:07 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 11:59:13 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 11:59:13 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 12:01:14 BRT 2016
+Tempo de reparo Gerado: 66291
+Tue Sep 27 12:01:46 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:02:53 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:04:23 BRT 2016
+Tempo de falha Gerado: 158449
+Tue Sep 27 12:04:23 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 12:07:03 BRT 2016
+Tempo de reparo Gerado: 158449
+Tue Sep 27 12:07:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:10:14 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:11:43 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 12:11:43 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 12:13:44 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 12:14:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:15:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:16:43 BRT 2016
+Tempo de falha Gerado: 547018
+Tue Sep 27 12:16:43 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 12:25:51 BRT 2016
+Tempo de reparo Gerado: 547018
+Tue Sep 27 12:26:22 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:35:31 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:36:41 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 12:36:41 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 12:38:42 BRT 2016
+Tempo de reparo Gerado: 107099
+Tue Sep 27 12:39:13 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:41:02 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 12:42:04 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 12:42:04 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 12:52:06 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 12:52:37 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:02:38 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:03:43 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 13:03:43 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 13:05:44 BRT 2016
+Tempo de reparo Gerado: 97033
+Tue Sep 27 13:06:16 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:07:54 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:08:57 BRT 2016
+Tempo de falha Gerado: 309846
+Tue Sep 27 13:08:57 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 13:14:09 BRT 2016
+Tempo de reparo Gerado: 309846
+Tue Sep 27 13:14:40 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:19:51 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:20:59 BRT 2016
+Tempo de falha Gerado: 228379
+Tue Sep 27 13:20:59 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 13:24:49 BRT 2016
+Tempo de reparo Gerado: 228379
+Tue Sep 27 13:25:20 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:29:10 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:30:16 BRT 2016
+Tempo de falha Gerado: 274100
+Tue Sep 27 13:30:16 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 13:34:52 BRT 2016
+Tempo de reparo Gerado: 274100
+Tue Sep 27 13:35:23 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:39:58 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:41:01 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 13:41:01 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 13:43:03 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 13:43:34 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:44:35 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:45:40 BRT 2016
+Tempo de falha Gerado: 258188
+Tue Sep 27 13:45:40 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 13:50:00 BRT 2016
+Tempo de reparo Gerado: 258188
+Tue Sep 27 13:50:31 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:54:51 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 13:55:59 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 13:55:59 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 14:06:00 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 14:06:32 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:16:33 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:17:53 BRT 2016
+Tempo de falha Gerado: 120000
+Tue Sep 27 14:17:53 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 14:19:54 BRT 2016
+Tempo de reparo Gerado: 60000
+Tue Sep 27 14:20:25 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:21:27 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:22:32 BRT 2016
+Tempo de falha Gerado: 432161
+Tue Sep 27 14:22:32 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 14:29:46 BRT 2016
+Tempo de reparo Gerado: 432161
+Tue Sep 27 14:30:17 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:37:30 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:38:37 BRT 2016
+Tempo de falha Gerado: 600000
+Tue Sep 27 14:38:37 BRT 2016
+
+ ---> O Serviço parou!
+Failed. VM: 192.168.0.175
+Tue Sep 27 14:48:38 BRT 2016
+Tempo de reparo Gerado: 600000
+Tue Sep 27 14:49:09 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 14:59:10 BRT 2016
+
+ ---> O Serviço foi iniciado!
+Início. VM: 192.168.0.175
+Tue Sep 27 15:00:16 BRT 2016
+Tempo de falha Gerado: 235324
+Tue Sep 27 15:00:16 BRT 2016

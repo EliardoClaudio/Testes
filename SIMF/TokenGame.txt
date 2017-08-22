@@ -1,0 +1,657 @@
+
+ ---> Test started on: Thu May 18 21:58:22 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Transition: failVm2 Fired! 
+Reached Marking! 
+Transition: repairVm2 Fired! 
+Reached Marking! 
+Transition: failNode Fired! 
+Reached Marking! 
+Transition: TI1 Fired! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: failFront Fired! 
+Reached Marking! 
+Transition: repairFront Fired! 
+Reached Marking! 
+Transition: failNode2 Fired! 
+Reached Marking! 
+Transition: TI2 Fired! 
+Reached Marking! 
+{nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+
+ ---> Test started on: Thu May 18 21:58:23 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairVm3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+ ---> Test started on: Thu May 18 22:11:26 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Transition: failNode Fired! 
+Reached Marking! 
+Transition: TI1 Fired! 
+Reached Marking! 
+Transition: failVm2 Fired! 
+Transition: failFront Fired! 
+Transition: repairVm2 Fired! 
+Transition: failNode2 Fired! 
+{nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=0, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=1}
+
+ ---> Test started on: Thu May 18 22:11:26 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+Fired: repairNode3
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+Fired: repairVm3
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+Fired: repairVm2
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+Fired: repairNode4
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: repairVm3
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu May 18 22:15:42 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: failVm Fired! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: repairVm Fired! 
+Reached Marking! 
+Transition: failNode2 Fired! 
+Reached Marking! 
+Transition: TI2 Fired! 
+Reached Marking! 
+Reached Marking! 
+{nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=1}
+
+ ---> Test started on: Thu May 18 22:15:42 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: repairVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: repairVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: repairVm3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+Fired: repairNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu May 18 22:19:00 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: failVm2 Fired! 
+Reached Marking! 
+Reached Marking! 
+Transition: failNode2 Fired! 
+Reached Marking! 
+Transition: repairNode2 Fired! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: failNode Fired! 
+Reached Marking! 
+Transition: TI1 Fired! 
+Reached Marking! 
+Transition: repairVm2 Fired! 
+{nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu May 18 22:19:00 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode3
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode4
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode2
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: failFront
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+
+Finishing Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+
+ ---> Test started on: Fri May 19 15:09:04 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Transition: failNode Fired! 
+Reached Marking! 
+Transition: TI1 Fired! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: failVm2 Fired! 
+Transition: failFront Fired! 
+Transition: repairVm2 Fired! 
+{nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Fri May 19 15:09:04 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: repairNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+Fired: repairNode4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+Fired: repairVm4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+
+Finishing Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=1, vm4On=0, node4On=0, node3On=0, frontOn=0, node4Off=1, node2Off=0}
+
+ ---> Test started on: Thu May 25 00:19:04 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Reached Marking! 
+Transition: failVm2 Fired! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Reached Marking! 
+Transition: failVm Fired! 
+Reached Marking! 
+Transition: repairVm Fired! 
+Reached Marking! 
+Transition: repairVm2 Fired! 
+Reached Marking! 
+Transition: failFront Fired! 
+Transition: failVm2 Fired! 
+{nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+
+ ---> Test started on: Thu May 25 00:19:04 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode2
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=1}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=1}
+Fired: repairVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=1}
+Fired: repairNode3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=0, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+Fired: failNode3
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=1}
+Fired: repairNode2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=1, vm3On=0, Vm4Off=1, vm2On=0, vm4On=0, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu May 25 20:34:59 BRT 2017
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failNode2 Fired! 
+Transition: TI2 Fired! 
+Transition: failNode3 Fired! 
+Transition: TI3 Fired! 
+Transition: repairNode3 Fired! 
+{nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+
+ ---> Test started on: Thu May 25 20:34:59 BRT 2017
+Initial marking {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode2
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI2
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+
+Finishing Marking: {nodeOn=1, vmOn=0, vm2Off=1, vm3Off=1, node2On=0, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+
+ ---> Test started on: Thu Jun 01 01:20:38 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failNode3 Fired! 
+Transition: TI3 Fired! 
+Transition: TI3 Fired! 
+Transition: failVm Fired! 
+Transition: failFront Fired! 
+{nodeOn=1, vmOn=1, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 01 01:20:38 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: repairVm
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+ ---> Test started on: Thu Jun 01 13:34:49 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Reached Marking! 
+Transition: failNode4 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Reached Marking! 
+Transition: failNode2 Fired! 
+Reached Marking! 
+Transition: TI2 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=1}
+
+ ---> Test started on: Thu Jun 01 13:34:49 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=1}
+
+ ---> Test started on: Sat Jun 03 01:33:35 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failNode2 Fired! 
+Transition: TI2 Fired! 
+Transition: TI2 Fired! 
+Transition: failVm4 Fired! 
+Transition: repairNode2 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Sat Jun 03 01:33:35 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=1, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Sat Jun 03 14:44:24 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failVm2 Fired! 
+Reached Marking! 
+Transition: failNode4 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Transition: repairNode4 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Sat Jun 03 14:44:24 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=0, frontOn=1, node4Off=1, node2Off=0}
+
+ ---> Test started on: Sat Jun 03 14:54:10 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failVm2 Fired! 
+Transition: repairVm2 Fired! 
+Reached Marking! 
+Transition: failNode4 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+ ---> Test started on: Sat Jun 03 14:54:10 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=1}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=2, vm3Off=0, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=0, vm4On=1, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+
+ ---> Test started on: Sat Jun 03 15:06:20 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failNode Fired! 
+Transition: TI1 Fired! 
+Transition: TI1 Fired! 
+Reached Marking! 
+Transition: failNode4 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+{nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=2, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+ ---> Test started on: Sat Jun 03 15:06:20 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=1, vm4On=2, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=1, vm4On=1, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=1, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=1, vm4On=1, node4On=0, node3On=1, frontOn=0, node4Off=1, node2Off=0}
+
+ ---> Test started on: Mon Jun 05 20:28:04 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failNode3 Fired! 
+Transition: TI3 Fired! 
+Transition: TI3 Fired! 
+Transition: failNode Fired! 
+Transition: TI1 Fired! 
+{nodeOn=0, vmOn=1, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=1, frontOff=0, nodeOff=1, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Mon Jun 05 20:28:04 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failVm
+Current Marking: {nodeOn=1, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+Finishing Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+
+ ---> Test started on: Tue Jun 06 00:27:17 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failVm Fired! 
+Transition: repairVm Fired! 
+Transition: failNode Fired! 
+Transition: TI1 Fired! 
+Transition: TI1 Fired! 
+{nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=2, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Tue Jun 06 00:27:17 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=1, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=0, node4Off=0, node2Off=0}
+Fired: repairFront
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 08 02:08:16 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failNode Fired! 
+Transition: TI1 Fired! 
+Transition: TI1 Fired! 
+Transition: failNode3 Fired! 
+Transition: TI3 Fired! 
+{nodeOn=0, vmOn=0, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=1, vmOff=2, frontOff=0, nodeOff=1, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 08 02:08:17 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=1, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failFront
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 08 10:21:11 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failVm3 Fired! 
+Transition: failVm3 Fired! 
+Transition: repairVm3 Fired! 
+Transition: failFront Fired! 
+Transition: repairFront Fired! 
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 08 10:21:11 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=1, vm4On=1, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: repairVm2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 08 23:30:51 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failVm3 Fired! 
+Transition: failVm Fired! 
+Transition: repairVm Fired! 
+Transition: failNode3 Fired! 
+Transition: TI3 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Thu Jun 08 23:30:51 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=1, vm2On=2, vm4On=1, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: TI0
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=0}
+Fired: repairNode4
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=2, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+ ---> Test started on: Sun Jun 11 23:13:35 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failVm2 Fired! 
+Reached Marking! 
+Transition: failNode4 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Reached Marking! 
+Transition: TI0 Fired! 
+Reached Marking! 
+Transition: failNode2 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=1, vm3Off=0, node2On=0, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=2, vm2On=1, vm4On=0, node4On=0, node3On=1, frontOn=1, node4Off=1, node2Off=1}
+
+ ---> Test started on: Sun Jun 11 23:13:35 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=1, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=1, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode3
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=1, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+Fired: TI2
+Current Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=2, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+
+Finishing Marking: {nodeOn=1, vmOn=2, vm2Off=1, vm3Off=2, node2On=0, nodeOff3=1, vmOff=0, frontOff=0, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=0, frontOn=1, node4Off=0, node2Off=1}
+
+ ---> Test started on: Tue Jun 13 16:53:06 BRT 2017
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Transition: failFront Fired! 
+Transition: failNode3 Fired! 
+Transition: TI3 Fired! 
+Transition: TI3 Fired! 
+Transition: failNode2 Fired! 
+{nodeOn=1, vmOn=2, vm2Off=0, vm3Off=2, node2On=0, nodeOff3=1, vmOff=0, frontOff=1, nodeOff=0, vm3On=0, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=0, frontOn=0, node4Off=0, node2Off=1}
+
+ ---> Test started on: Tue Jun 13 16:53:06 BRT 2017
+Initial marking {nodeOn=1, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=0, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failNode
+Current Marking: {nodeOn=0, vmOn=2, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=0, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=1, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=1, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: TI1
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=0, vm3Off=0, node2On=1, nodeOff3=0, vmOff=2, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=2, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=1, vm3Off=0, node2On=1, nodeOff3=0, vmOff=2, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=1, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+Fired: failVm2
+Current Marking: {nodeOn=0, vmOn=0, vm2Off=2, vm3Off=0, node2On=1, nodeOff3=0, vmOff=2, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=0, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}
+
+Finishing Marking: {nodeOn=0, vmOn=0, vm2Off=2, vm3Off=0, node2On=1, nodeOff3=0, vmOff=2, frontOff=0, nodeOff=1, vm3On=2, Vm4Off=0, vm2On=0, vm4On=2, node4On=1, node3On=1, frontOn=1, node4Off=0, node2Off=0}

@@ -1,0 +1,1959 @@
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: fronOn=1 Time: 600000
+Time: : Sun Jun 11 23:38:03 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Node service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: NodeOn=1 Time: 309232
+Time: : Sun Jun 11 23:38:04 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1 Time: 600000
+Time: : Sun Jun 11 23:38:06 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1 Time: 120000
+Time: : Sun Jun 11 23:38:07 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1 Time: 332348
+Time: : Sun Jun 11 23:38:08 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service was started!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1 Time: 273752
+Time: : Sun Jun 11 23:38:09 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM2 service was started!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+SPN: VM2On
+Time: : Sun Jun 11 23:38:11 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM3 service was started!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+SPN: VM3On
+Time: : Sun Jun 11 23:38:12 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM4 service was started!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: node4On=1
+SPN: VM4On
+Time: : Sun Jun 11 23:38:13 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 592288
+Date: Sun Jun 11 23:38:16 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The Node service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: nodeFail=0
+SPN: NodeOff
+Time: 600000
+Time: : Sun Jun 11 23:38:17 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node2 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: node2Fail=0
+SPN: Node2Off
+Time: 426095
+Date: Sun Jun 11 23:38:18 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node3 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: node3Fail=0
+SPN: Node3Off
+Time: 120000
+Date: Sun Jun 11 23:38:19 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node4 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: node2Fail=0
+SPN: Node4Off
+Time: 600000
+Date: Sun Jun 11 23:38:21 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The VM service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: vmFail
+SPN: VMOff
+Time: 120000
+Date: Sun Jun 11 23:38:22 BRT 2017
+euca-terminate-instances
+
+ ---> The VM2 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA
+Current status: vm2Fail=0
+SPN: VM2Off
+Time: 304534
+Date: Sun Jun 11 23:38:23 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The VM3 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA
+Current status: Node3On=1
+SPN: VM3Off
+Time: 120000
+Date: Sun Jun 11 23:38:26 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 178928
+Date: Sun Jun 11 23:38:28 BRT 2017
+
+ ---> The Node service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: Vm2Off
+Time: 120000
+Date: Sun Jun 11 23:38:30 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Node2 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: Vm3Off
+Time: 120000
+Date: Sun Jun 11 23:38:33 BRT 2017
+
+ ---> The Node3 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: Vm3Off
+Time: 600000
+Date: Sun Jun 11 23:38:35 BRT 2017
+
+ ---> The Node4 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: Vm4Off
+Time: 432250
+Date: Sun Jun 11 23:38:36 BRT 2017
+
+ ---> The VM service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: Vm4Off
+Time: 600000
+Date: Sun Jun 11 23:38:37 BRT 2017
+
+ ---> The VM2 service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA2
+Current status: Node3On=1
+Time: 242317
+Date: Sun Jun 11 23:38:39 BRT 2017
+
+ ---> The VM3 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA2
+Current status: Node3On=1
+Time: 157203
+Date: Sun Jun 11 23:38:40 BRT 2017
+
+ ---> The VM4 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM4: emi-D89C3AA2
+Current status: Node3Off=0
+Time: 417640
+Date: Sun Jun 11 23:38:41 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 309232
+Date: Sun Jun 11 23:38:44 BRT 2017
+service eucalyptus-cloud start
+
+ ---> The Node service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: nodeOn=1
+Time: 600000
+Date: Sun Jun 11 23:38:45 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1
+Time: 119373
+Date: Sun Jun 11 23:38:46 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1
+Time: 332348
+Date: Sun Jun 11 23:38:47 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1
+Time: 273752
+Date: Sun Jun 11 23:38:49 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service repaired!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1
+Time: 229569
+Date: Sun Jun 11 23:38:50 BRT 2017
+euca-describe-instances
+
+ ---> The VM2 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+Time: 562867
+Date: Sun Jun 11 23:38:51 BRT 2017
+euca-describe-instances
+
+ ---> The VM3 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+Time: 96078
+Date: Sun Jun 11 23:38:52 BRT 2017
+euca-describe-instances
+
+ ---> The VM4 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: Vm4On=1
+Time: 221215
+Date: Sun Jun 11 23:38:54 BRT 2017
+euca-describe-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: fronOn=1 Time: 600000
+Time: : Mon Jun 12 00:38:48 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Node service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: NodeOn=1 Time: 433261
+Time: : Mon Jun 12 00:38:49 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1 Time: 120000
+Time: : Mon Jun 12 00:38:50 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1 Time: 526475
+Time: : Mon Jun 12 00:38:51 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1 Time: 600000
+Time: : Mon Jun 12 00:38:53 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service was started!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1 Time: 401722
+Time: : Mon Jun 12 00:38:54 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM2 service was started!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+SPN: VM2On
+Time: : Mon Jun 12 00:38:55 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM3 service was started!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+SPN: VM3On
+Time: : Mon Jun 12 00:38:56 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM4 service was started!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: node4On=1
+SPN: VM4On
+Time: : Mon Jun 12 00:38:58 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 600000
+Date: Mon Jun 12 00:39:00 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The Node service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: nodeFail=0
+SPN: NodeOff
+Time: 477663
+Time: : Mon Jun 12 00:39:01 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node2 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: node2Fail=0
+SPN: Node2Off
+Time: 120000
+Date: Mon Jun 12 00:39:03 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node3 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: node3Fail=0
+SPN: Node3Off
+Time: 269520
+Date: Mon Jun 12 00:39:04 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node4 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: node2Fail=0
+SPN: Node4Off
+Time: 384446
+Date: Mon Jun 12 00:39:05 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The VM service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: vmFail
+SPN: VMOff
+Time: 138585
+Date: Mon Jun 12 00:39:07 BRT 2017
+euca-terminate-instances
+
+ ---> The VM2 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA
+Current status: vm2Fail=0
+SPN: VM2Off
+Time: 120000
+Date: Mon Jun 12 00:39:08 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The VM3 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA
+Current status: Node3On=1
+SPN: VM3Off
+Time: 120000
+Date: Mon Jun 12 00:39:10 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 334210
+Date: Mon Jun 12 00:39:13 BRT 2017
+
+ ---> The Node service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: Vm2Off
+Time: 120000
+Date: Mon Jun 12 00:39:14 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Node2 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: Vm3Off
+Time: 377767
+Date: Mon Jun 12 00:39:18 BRT 2017
+
+ ---> The Node3 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: Vm3Off
+Time: 335175
+Date: Mon Jun 12 00:39:19 BRT 2017
+
+ ---> The Node4 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: Vm4Off
+Time: 120000
+Date: Mon Jun 12 00:39:21 BRT 2017
+
+ ---> The VM service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: Vm4Off
+Time: 320683
+Date: Mon Jun 12 00:39:22 BRT 2017
+
+ ---> The VM2 service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA2
+Current status: Node3On=1
+Time: 146883
+Date: Mon Jun 12 00:39:23 BRT 2017
+
+ ---> The VM3 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA2
+Current status: Node3On=1
+Time: 120000
+Date: Mon Jun 12 00:39:24 BRT 2017
+
+ ---> The VM4 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM4: emi-D89C3AA2
+Current status: Node3Off=0
+Time: 217446
+Date: Mon Jun 12 00:39:26 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 433261
+Date: Mon Jun 12 00:39:28 BRT 2017
+service eucalyptus-cloud start
+
+ ---> The Node service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: nodeOn=1
+Time: 112355
+Date: Mon Jun 12 00:39:29 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1
+Time: 526475
+Date: Mon Jun 12 00:39:31 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1
+Time: 600000
+Date: Mon Jun 12 00:39:32 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1
+Time: 401722
+Date: Mon Jun 12 00:39:33 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service repaired!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1
+Time: 600000
+Date: Mon Jun 12 00:39:34 BRT 2017
+euca-describe-instances
+
+ ---> The VM2 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+Time: 66541
+Date: Mon Jun 12 00:39:36 BRT 2017
+euca-describe-instances
+
+ ---> The VM3 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+Time: 600000
+Date: Mon Jun 12 00:39:37 BRT 2017
+euca-describe-instances
+
+ ---> The VM4 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: Vm4On=1
+Time: 418919
+Date: Mon Jun 12 00:39:38 BRT 2017
+euca-describe-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: fronOn=1 Time: 600000
+Time: : Tue Jun 13 16:53:32 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Node service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: NodeOn=1 Time: 128180
+Time: : Tue Jun 13 16:53:33 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1 Time: 120000
+Time: : Tue Jun 13 16:53:34 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1 Time: 127508
+Time: : Tue Jun 13 16:53:35 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1 Time: 600000
+Time: : Tue Jun 13 16:53:37 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service was started!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1 Time: 120000
+Time: : Tue Jun 13 16:53:38 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM2 service was started!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+SPN: VM2On
+Time: : Tue Jun 13 16:53:39 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM3 service was started!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+SPN: VM3On
+Time: : Tue Jun 13 16:53:40 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM4 service was started!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: node4On=1
+SPN: VM4On
+Time: : Tue Jun 13 16:53:42 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 243568
+Date: Tue Jun 13 16:53:44 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The Node service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: nodeFail=0
+SPN: NodeOff
+Time: 120000
+Time: : Tue Jun 13 16:53:46 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node2 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: node2Fail=0
+SPN: Node2Off
+Time: 479914
+Date: Tue Jun 13 16:53:47 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node3 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: node3Fail=0
+SPN: Node3Off
+Time: 257692
+Date: Tue Jun 13 16:53:48 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node4 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: node2Fail=0
+SPN: Node4Off
+Time: 174766
+Date: Tue Jun 13 16:53:49 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The VM service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: vmFail
+SPN: VMOff
+Time: 197601
+Date: Tue Jun 13 16:53:51 BRT 2017
+euca-terminate-instances
+
+ ---> The VM2 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA
+Current status: vm2Fail=0
+SPN: VM2Off
+Time: 287878
+Date: Tue Jun 13 16:53:52 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The VM3 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA
+Current status: Node3On=1
+SPN: VM3Off
+Time: 600000
+Date: Tue Jun 13 16:53:55 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 274887
+Date: Tue Jun 13 16:53:57 BRT 2017
+
+ ---> The Node service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: Vm2Off
+Time: 289754
+Date: Tue Jun 13 16:53:58 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Node2 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: Vm3Off
+Time: 387106
+Date: Tue Jun 13 16:54:02 BRT 2017
+
+ ---> The Node3 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: Vm3Off
+Time: 600000
+Date: Tue Jun 13 16:54:03 BRT 2017
+
+ ---> The Node4 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: Vm4Off
+Time: 120000
+Date: Tue Jun 13 16:54:05 BRT 2017
+
+ ---> The VM service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: Vm4Off
+Time: 254110
+Date: Tue Jun 13 16:54:06 BRT 2017
+
+ ---> The VM2 service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA2
+Current status: Node3On=1
+Time: 395118
+Date: Tue Jun 13 16:54:07 BRT 2017
+
+ ---> The VM3 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA2
+Current status: Node3On=1
+Time: 223737
+Date: Tue Jun 13 16:54:09 BRT 2017
+
+ ---> The VM4 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM4: emi-D89C3AA2
+Current status: Node3Off=0
+Time: 120000
+Date: Tue Jun 13 16:54:10 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 128180
+Date: Tue Jun 13 16:54:12 BRT 2017
+service eucalyptus-cloud start
+
+ ---> The Node service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: nodeOn=1
+Time: 60000
+Date: Tue Jun 13 16:54:14 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1
+Time: 127508
+Date: Tue Jun 13 16:54:15 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1
+Time: 600000
+Date: Tue Jun 13 16:54:16 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1
+Time: 78551
+Date: Tue Jun 13 16:54:17 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service repaired!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1
+Time: 213965
+Date: Tue Jun 13 16:54:19 BRT 2017
+euca-describe-instances
+
+ ---> The VM2 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+Time: 246882
+Date: Tue Jun 13 16:54:20 BRT 2017
+euca-describe-instances
+
+ ---> The VM3 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+Time: 378381
+Date: Tue Jun 13 16:54:21 BRT 2017
+euca-describe-instances
+
+ ---> The VM4 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: Vm4On=1
+Time: 137468
+Date: Tue Jun 13 16:54:22 BRT 2017
+euca-describe-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: fronOn=1 Time: 120000
+Time: : Tue Jun 13 17:01:54 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Node service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: NodeOn=1 Time: 120000
+Time: : Tue Jun 13 17:01:56 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1 Time: 155118
+Time: : Tue Jun 13 17:01:57 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1 Time: 374076
+Time: : Tue Jun 13 17:01:58 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1 Time: 120000
+Time: : Tue Jun 13 17:02:00 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service was started!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1 Time: 190971
+Time: : Tue Jun 13 17:02:01 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM2 service was started!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+SPN: VM2On
+Time: : Tue Jun 13 17:02:02 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM3 service was started!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+SPN: VM3On
+Time: : Tue Jun 13 17:02:03 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM4 service was started!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: node4On=1
+SPN: VM4On
+Time: : Tue Jun 13 17:02:05 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 317363
+Date: Tue Jun 13 17:02:07 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The Node service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: nodeFail=0
+SPN: NodeOff
+Time: 120000
+Time: : Tue Jun 13 17:02:08 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node2 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: node2Fail=0
+SPN: Node2Off
+Time: 542929
+Date: Tue Jun 13 17:02:10 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node3 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: node3Fail=0
+SPN: Node3Off
+Time: 120000
+Date: Tue Jun 13 17:02:11 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node4 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: node2Fail=0
+SPN: Node4Off
+Time: 120000
+Date: Tue Jun 13 17:02:12 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The VM service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: vmFail
+SPN: VMOff
+Time: 120000
+Date: Tue Jun 13 17:02:14 BRT 2017
+euca-terminate-instances
+
+ ---> The VM2 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA
+Current status: vm2Fail=0
+SPN: VM2Off
+Time: 173037
+Date: Tue Jun 13 17:02:15 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The VM3 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA
+Current status: Node3On=1
+SPN: VM3Off
+Time: 138075
+Date: Tue Jun 13 17:02:17 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 600000
+Date: Tue Jun 13 17:02:20 BRT 2017
+
+ ---> The Node service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: Vm2Off
+Time: 600000
+Date: Tue Jun 13 17:02:21 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Node2 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: Vm3Off
+Time: 120000
+Date: Tue Jun 13 17:02:25 BRT 2017
+
+ ---> The Node3 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: Vm3Off
+Time: 120000
+Date: Tue Jun 13 17:02:26 BRT 2017
+
+ ---> The Node4 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: Vm4Off
+Time: 427962
+Date: Tue Jun 13 17:02:28 BRT 2017
+
+ ---> The VM service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: Vm4Off
+Time: 380666
+Date: Tue Jun 13 17:02:29 BRT 2017
+
+ ---> The VM2 service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA2
+Current status: Node3On=1
+Time: 475774
+Date: Tue Jun 13 17:02:30 BRT 2017
+
+ ---> The VM3 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA2
+Current status: Node3On=1
+Time: 322058
+Date: Tue Jun 13 17:02:32 BRT 2017
+
+ ---> The VM4 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM4: emi-D89C3AA2
+Current status: Node3Off=0
+Time: 120000
+Date: Tue Jun 13 17:02:33 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 60000
+Date: Tue Jun 13 17:02:35 BRT 2017
+service eucalyptus-cloud start
+
+ ---> The Node service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: nodeOn=1
+Time: 155118
+Date: Tue Jun 13 17:02:37 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1
+Time: 374076
+Date: Tue Jun 13 17:02:38 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1
+Time: 98942
+Date: Tue Jun 13 17:02:39 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1
+Time: 190971
+Date: Tue Jun 13 17:02:40 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service repaired!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1
+Time: 214758
+Date: Tue Jun 13 17:02:42 BRT 2017
+euca-describe-instances
+
+ ---> The VM2 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+Time: 60000
+Date: Tue Jun 13 17:02:43 BRT 2017
+euca-describe-instances
+
+ ---> The VM3 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+Time: 600000
+Date: Tue Jun 13 17:02:44 BRT 2017
+euca-describe-instances
+
+ ---> The VM4 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: Vm4On=1
+Time: 205088
+Date: Tue Jun 13 17:02:45 BRT 2017
+euca-describe-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: fronOn=1 Time: 272734
+Time: : Tue Jun 13 17:10:22 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Node service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: NodeOn=1 Time: 174875
+Time: : Tue Jun 13 17:10:23 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1 Time: 390372
+Time: : Tue Jun 13 17:10:24 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1 Time: 120000
+Time: : Tue Jun 13 17:10:26 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1 Time: 120000
+Time: : Tue Jun 13 17:10:27 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service was started!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1 Time: 520622
+Time: : Tue Jun 13 17:10:28 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM2 service was started!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+SPN: VM2On
+Time: : Tue Jun 13 17:10:29 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM3 service was started!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+SPN: VM3On
+Time: : Tue Jun 13 17:10:31 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM4 service was started!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: node4On=1
+SPN: VM4On
+Time: : Tue Jun 13 17:10:32 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 547371
+Date: Tue Jun 13 17:10:35 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The Node service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: nodeFail=0
+SPN: NodeOff
+Time: 137472
+Time: : Tue Jun 13 17:10:36 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node2 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: node2Fail=0
+SPN: Node2Off
+Time: 152314
+Date: Tue Jun 13 17:10:37 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node3 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: node3Fail=0
+SPN: Node3Off
+Time: 120000
+Date: Tue Jun 13 17:10:38 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node4 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: node2Fail=0
+SPN: Node4Off
+Time: 281285
+Date: Tue Jun 13 17:10:40 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The VM service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: vmFail
+SPN: VMOff
+Time: 120000
+Date: Tue Jun 13 17:10:41 BRT 2017
+euca-terminate-instances
+
+ ---> The VM2 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA
+Current status: vm2Fail=0
+SPN: VM2Off
+Time: 366236
+Date: Tue Jun 13 17:10:42 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The VM3 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA
+Current status: Node3On=1
+SPN: VM3Off
+Time: 120000
+Date: Tue Jun 13 17:10:45 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 270668
+Date: Tue Jun 13 17:10:47 BRT 2017
+
+ ---> The Node service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: Vm2Off
+Time: 318671
+Date: Tue Jun 13 17:10:49 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Node2 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: Vm3Off
+Time: 491469
+Date: Tue Jun 13 17:10:52 BRT 2017
+
+ ---> The Node3 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: Vm3Off
+Time: 416111
+Date: Tue Jun 13 17:10:54 BRT 2017
+
+ ---> The Node4 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: Vm4Off
+Time: 125818
+Date: Tue Jun 13 17:10:55 BRT 2017
+
+ ---> The VM service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: Vm4Off
+Time: 120000
+Date: Tue Jun 13 17:10:56 BRT 2017
+
+ ---> The VM2 service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA2
+Current status: Node3On=1
+Time: 433440
+Date: Tue Jun 13 17:10:58 BRT 2017
+
+ ---> The VM3 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA2
+Current status: Node3On=1
+Time: 152737
+Date: Tue Jun 13 17:10:59 BRT 2017
+
+ ---> The VM4 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM4: emi-D89C3AA2
+Current status: Node3Off=0
+Time: 479877
+Date: Tue Jun 13 17:11:00 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 174875
+Date: Tue Jun 13 17:11:03 BRT 2017
+service eucalyptus-cloud start
+
+ ---> The Node service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: nodeOn=1
+Time: 390372
+Date: Tue Jun 13 17:11:04 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1
+Time: 60000
+Date: Tue Jun 13 17:11:05 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1
+Time: 111660
+Date: Tue Jun 13 17:11:06 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1
+Time: 520622
+Date: Tue Jun 13 17:11:08 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service repaired!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1
+Time: 342231
+Date: Tue Jun 13 17:11:09 BRT 2017
+euca-describe-instances
+
+ ---> The VM2 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+Time: 313035
+Date: Tue Jun 13 17:11:10 BRT 2017
+euca-describe-instances
+
+ ---> The VM3 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+Time: 60000
+Date: Tue Jun 13 17:11:12 BRT 2017
+euca-describe-instances
+
+ ---> The VM4 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: Vm4On=1
+Time: 60000
+Date: Tue Jun 13 17:11:13 BRT 2017
+euca-describe-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: fronOn=1 Time: 120000
+Time: : Tue Jun 13 17:15:04 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Node service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: NodeOn=1 Time: 120000
+Time: : Tue Jun 13 17:15:06 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1 Time: 393214
+Time: : Tue Jun 13 17:15:07 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1 Time: 146806
+Time: : Tue Jun 13 17:15:08 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service was started!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1 Time: 354245
+Time: : Tue Jun 13 17:15:09 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service was started!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1 Time: 120000
+Time: : Tue Jun 13 17:15:11 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM2 service was started!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+SPN: VM2On
+Time: : Tue Jun 13 17:15:12 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM3 service was started!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+SPN: VM3On
+Time: : Tue Jun 13 17:15:13 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The VM4 service was started!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: node4On=1
+SPN: VM4On
+Time: : Tue Jun 13 17:15:15 BRT 2017
+euca-run-instances -k teste -t m1.small emi-D89C3AA2 | awk '{print $2}' | grep i-
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 120000
+Date: Tue Jun 13 17:15:17 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The Node service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: nodeFail=0
+SPN: NodeOff
+Time: 140016
+Time: : Tue Jun 13 17:15:18 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node2 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: node2Fail=0
+SPN: Node2Off
+Time: 120000
+Date: Tue Jun 13 17:15:20 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node3 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: node3Fail=0
+SPN: Node3Off
+Time: 120000
+Date: Tue Jun 13 17:15:21 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The Node4 service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: node2Fail=0
+SPN: Node4Off
+Time: 600000
+Date: Tue Jun 13 17:15:22 BRT 2017
+service eucalyptus-nc stop
+
+ ---> The VM service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: vmFail
+SPN: VMOff
+Time: 230244
+Date: Tue Jun 13 17:15:23 BRT 2017
+euca-terminate-instances
+
+ ---> The VM2 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA
+Current status: vm2Fail=0
+SPN: VM2Off
+Time: 600000
+Date: Tue Jun 13 17:15:25 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The VM3 service stoped!
+Status: Down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA
+Current status: Node3On=1
+SPN: VM3Off
+Time: 120000
+Date: Tue Jun 13 17:15:27 BRT 2017
+euca-terminate-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 600000
+Date: Tue Jun 13 17:15:30 BRT 2017
+
+ ---> The Node service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.152
+Current status: Vm2Off
+Time: 120000
+Date: Tue Jun 13 17:15:31 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Node2 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.153
+Current status: Vm3Off
+Time: 120000
+Date: Tue Jun 13 17:15:35 BRT 2017
+
+ ---> The Node3 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.155
+Current status: Vm3Off
+Time: 120000
+Date: Tue Jun 13 17:15:36 BRT 2017
+
+ ---> The Node4 service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.156
+Current status: Vm4Off
+Time: 120000
+Date: Tue Jun 13 17:15:37 BRT 2017
+
+ ---> The VM service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM: emi-D89C3AA2
+Current status: Vm4Off
+Time: 300144
+Date: Tue Jun 13 17:15:39 BRT 2017
+
+ ---> The VM2 service failed!
+Status: Down
+Cloud Status: Inactive
+ID VM2: emi-D89C3AA2
+Current status: Node3On=1
+Time: 120000
+Date: Tue Jun 13 17:15:40 BRT 2017
+
+ ---> The VM3 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM3: emi-D89C3AA2
+Current status: Node3On=1
+Time: 346459
+Date: Tue Jun 13 17:15:41 BRT 2017
+
+ ---> The VM4 service failed!
+Status: down
+Cloud Status: Inactive
+ID VM4: emi-D89C3AA2
+Current status: Node3Off=0
+Time: 600000
+Date: Tue Jun 13 17:15:43 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 62691
+Date: Tue Jun 13 17:15:45 BRT 2017
+service eucalyptus-cloud start
+
+ ---> The Node service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.152
+Current status: nodeOn=1
+Time: 393214
+Date: Tue Jun 13 17:15:46 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node2 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.153
+Current status: node2On=1
+Time: 146806
+Date: Tue Jun 13 17:15:48 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node3 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.155
+Current status: node3On=1
+Time: 354245
+Date: Tue Jun 13 17:15:49 BRT 2017
+service eucalyptus-nc start
+
+ ---> The Node4 service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.156
+Current status: node4On=1
+Time: 60000
+Date: Tue Jun 13 17:15:50 BRT 2017
+service eucalyptus-nc start
+
+ ---> The VM service repaired!
+Status: Up
+Cloud Status: Active
+ID VM: emi-D89C3AA2
+Current status: vmOn=1
+Time: 60000
+Date: Tue Jun 13 17:15:52 BRT 2017
+euca-describe-instances
+
+ ---> The VM2 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM2: emi-D89C3AA2
+Current status: vm2On=1
+Time: 327833
+Date: Tue Jun 13 17:15:53 BRT 2017
+euca-describe-instances
+
+ ---> The VM3 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM3: emi-D89C3AA2
+Current status: vm3On=1
+Time: 60000
+Date: Tue Jun 13 17:15:54 BRT 2017
+euca-describe-instances
+
+ ---> The VM4 service repaired!
+Status: Up
+Cloud Status: Active
+ID VM4: emi-D89C3AA2
+Current status: Vm4On=1
+Time: 236238
+Date: Tue Jun 13 17:15:56 BRT 2017
+euca-describe-instances
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service was started!
+Status: Up
+Cloud Status: Active
+IP Number: br.ufpe.cin.support.MySshConnector@572f81e
+Current status: fronOn=1 Time: 600000
+Time: : Tue Jun 13 17:50:29 BRT 2017
+service eucalyptus-cc start
+
+ ---> The Front service stoped!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: frontFail=0
+SPN: FrontOff
+Time: 522158
+Date: Tue Jun 13 17:50:31 BRT 2017
+service eucalyptus-cloud stop
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service failed!
+Status: Down
+Cloud Status: Inactive
+IP Number: 192.168.0.151
+Current status: VmOff
+Time: 262223
+Date: Tue Jun 13 17:50:33 BRT 2017
+
+ ---> The inhibitor was triggered!
+
+ ---> The Front service repaired!
+Status: Up
+Cloud Status: Active
+IP Number: 192.168.0.151
+Current status: frontOn=1
+Time: 522158
+Date: Tue Jun 13 17:50:36 BRT 2017
+service eucalyptus-cloud start
